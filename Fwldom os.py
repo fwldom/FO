@@ -4,7 +4,7 @@ try :
      from time import *
      from os import *
 except:
-     print("Error Code 1 : Not Install packages.  ")
+     print("Error Code 1 : Not Install packages. Please Install packages  ")
  
 #Start Logo
 print(Fore.GREEN +"")
@@ -96,7 +96,7 @@ UserName = input(Fore.GREEN+" Enter Name User : ")
 Password = input(f" Enter Password {UserName} : ")
 command = ""
 while command != "exit":
-     command = input("FO>> : ")
+     command = input(" FO>> : ")
      if command == "smsbomb":
           print("1")
      elif command == "12":
