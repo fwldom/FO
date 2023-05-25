@@ -98,6 +98,6 @@ command = ""
 while command != "exit":
      command = input(" FO>> : ")
      if command == "smsbomb":
-          print("1")
+          system("python ")
      elif command == "12":
          print(1)
