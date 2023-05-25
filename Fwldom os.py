@@ -5,7 +5,7 @@ try :
      from os import *
 except:
      print("Error Code 1 : Not Install packages. Please Install packages  ")
- #S
+
 #Start Logo
 print(Fore.GREEN +"")
 system("cls" or "clear")
