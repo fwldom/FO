@@ -15,7 +15,7 @@ except:
      system("pip install colorama" or "pip3 install colorama")
      system("pip install requests" or "pip3 install requests")
 
-os.system("pip install user-agent" or "pip3 install user-agent")
+system("pip install user-agent" or "pip3 install user-agent")
 #Start
 system("cls" or "clear")
 print("Starting FWLDOM_BOMB ... ")
