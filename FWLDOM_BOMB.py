@@ -209,7 +209,7 @@ def bombing2():
              requests.post(url=url_basalam ,json=json_basalam,headers=random_head)   
          except:
              print(f"Round {k+1} Not Send SMS ")
-         print(f"Round {k+1} Complte SMS XD ")
+         print(f"Round {k+1} Complte XD ")
          return True
 
 
