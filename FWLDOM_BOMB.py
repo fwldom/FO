@@ -9,9 +9,13 @@ try:
      import requests
 except:
      import os
-     print("Not install Package . Installing Package . ")
-     os.system
+     print("Not install Package . Installing Package . Connect To Internet ")
+     sleep(3)
+     os.system("pip install api" or "pip3 install api")
+     os.system("pip install colorama" or "pip3 install colorama")
+     os.system("pip install requests" or "pip3 install requests")
 
+os.system("pip install user-agent" or "pip3 install user-agent")
 #Start
 system("cls" or "clear")
 print("Starting FWLDOM_BOMB ... ")
