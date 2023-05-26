@@ -230,11 +230,12 @@ if __name__ == "__main__":
     system("cls" or "clear")
     print("*//>Number Phone : " + num)
     print("*//>Round : "+ str(yy))
-    while range(yy):
-         bombing2()
-         print("Complte Sms Bomb .... ")
-         print("Made By Fwldom")
-         print("GitHub : https://github.com/fwldom , Telegram : @Fwldom1 , WebSite : www.fwldom.rf.gd")
-         print("Exiting ...")
+    
+    bombing2()
+    print("Complte Sms Bomb .... ")
+    print("Made By Fwldom")
+    print("GitHub : https://github.com/fwldom , Telegram : @Fwldom1 , WebSite : www.fwldom.rf.gd")
+    print("Exiting ...")
+
 
 
