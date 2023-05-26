@@ -8,12 +8,12 @@ try:
      import random
      import requests
 except:
-     import os
+     from os import system, name
      print("Not install Package . Installing Package . Connect To Internet ")
      sleep(3)
-     os.system("pip install api" or "pip3 install api")
-     os.system("pip install colorama" or "pip3 install colorama")
-     os.system("pip install requests" or "pip3 install requests")
+     system("pip install api" or "pip3 install api")
+     system("pip install colorama" or "pip3 install colorama")
+     system("pip install requests" or "pip3 install requests")
 
 os.system("pip install user-agent" or "pip3 install user-agent")
 #Start
