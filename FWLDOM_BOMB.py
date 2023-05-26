@@ -209,6 +209,7 @@ def bombing2():
              requests.post(url=url_basalam ,json=json_basalam,headers=random_head)   
          except:
              print(f"Round {k+1} Not Send SMS ")
+             break
          print(f"Round {k+1} Complte XD ")
          return True
 
@@ -236,6 +237,7 @@ if __name__ == "__main__":
     print("Made By Fwldom")
     print("GitHub : https://github.com/fwldom , Telegram : @Fwldom1 , WebSite : www.fwldom.rf.gd")
     print("Exiting ...")
+
 
 
 
