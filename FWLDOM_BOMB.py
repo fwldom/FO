@@ -8,7 +8,7 @@ import random
 import requests
 #Start
 system("cls" or "clear")
-print("Starting FSWMLSBomb ... ")
+print("Starting FWLDOM_BOMB ... ")
 sleep(2)
 system("cls" or "clear")
 print("Loading ..")
