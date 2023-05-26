@@ -100,6 +100,6 @@ command = ""
 while command != "exit":
      command = input(" FO>> : ")
      if command == "smsbomb":
-          system("python FWLDOM_BOMB.py" or "python FWLDOM_BOMB.py")
+          system("python FWLDOM_BOMB.py" or "python3 FWLDOM_BOMB.py")
      elif command == "12":
          print(1)
