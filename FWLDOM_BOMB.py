@@ -1,11 +1,17 @@
-from threading import Thread
-from Api import sms, call
-from time import sleep
-from inspect import getmembers, isfunction 
-from os import system, name
-from colorama import * 
-import random
-import requests
+try: 
+     from threading import Thread
+     from Api import sms, call
+     from time import sleep
+     from inspect import getmembers, isfunction 
+     from os import system, name
+     from colorama import * 
+     import random
+     import requests
+except:
+     import os
+     print("Not install Package . Installing Package . ")
+     os.system
+
 #Start
 system("cls" or "clear")
 print("Starting FWLDOM_BOMB ... ")
