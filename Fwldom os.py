@@ -4,7 +4,9 @@ try :
      from time import *
      from os import *
 except:
-     print("Error Code 1 : Not Install packages. Please Install packages  ")
+     print("Error Code 1 : Not Install packages . Installing  packages . Connect To Internet . ")
+     system("pip install colorama" or "pip3 install colorama")
+
 
 #Start Logo
 print(Fore.GREEN +"")
