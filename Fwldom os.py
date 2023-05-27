@@ -117,7 +117,7 @@ while command != "exit":
                 ping              ping google.com : Get a ping from the site .
                 help              Help fwldom os 
                 ============================================================
-                Apps         &    about 
+                Name Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
                 calculator        calculator / ** * - + 
 
@@ -128,6 +128,7 @@ while command != "exit":
 
      elif command == "calculator":
           system("python Calculator.py" or "python3 Calculator.py")
+          continue
 
 
      else:
