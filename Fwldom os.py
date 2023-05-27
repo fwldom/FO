@@ -119,14 +119,15 @@ while command != "exit":
                 ============================================================
                 Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
+                calculator        calculator / ** * - + 
 
 
 '''
           )
           continue
 
-     elif command == "":
-          pass
+     elif command == "calculator":
+          system("python Calculator.py" or "python3 Calculator.py")
 
 
      else:
