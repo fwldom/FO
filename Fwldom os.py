@@ -104,6 +104,24 @@ while command != "exit":
           system("python FWLDOM_BOMB.py" or "python3 FWLDOM_BOMB.py")
      elif command == "":
          print(" Please Type Command .")
+         continue
      elif command[0:4] == "ping":
           command += " "
           system(f"ping {command[4:-1]}")
+          continue
+     elif command =="help":
+          print(
+                '''
+                ============================================================
+                Command      &    about
+                ping              ping google.com : Get a ping from the site .
+                ============================================================
+                Apps         &    about 
+                smsbomb           SMS BOMBER Iran 94 Api High Speed .
+                
+'''
+          )
+
+
+     else:
+          system(command)
