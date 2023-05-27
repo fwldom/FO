@@ -118,9 +118,13 @@ while command != "exit":
                 ============================================================
                 Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
-                
+
 '''
           )
+          continue
+
+     elif command == "":
+          pass
 
 
      else:
