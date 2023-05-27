@@ -98,8 +98,9 @@ UserName = input(Fore.GREEN+" Enter Name User : ")
 Password = input(f" Enter Password {UserName} : ")
 command = ""
 while command != "exit":
-     command = input(" FO>> : ")
+     command = str(input(" FO>> : "))
+     command = command.lower().replace(" " , "")
      if command == "smsbomb":
           system("python FWLDOM_BOMB.py" or "python3 FWLDOM_BOMB.py")
-     elif command == "12":
-         print(1)
+     elif command == "":
+         print(" Please Type Command .")
