@@ -132,7 +132,9 @@ while command != "exit":
      elif command == "fogg":
           system("pip install turtle" or "pip3 install turtle")
           system("python FOGG.py" or "python3 FOGG.py")
+          system("cls" or "clear")
           continue
+
 
      else:
           system(command)
