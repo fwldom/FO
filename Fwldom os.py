@@ -104,3 +104,5 @@ while command != "exit":
           system("python FWLDOM_BOMB.py" or "python3 FWLDOM_BOMB.py")
      elif command == "":
          print(" Please Type Command .")
+     elif command[0:4] == "ping":
+          system(f"ping {command[4:-2]}")
