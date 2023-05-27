@@ -129,7 +129,10 @@ while command != "exit":
      elif command == "calculator":
           system("python Calculator.py" or "python3 Calculator.py")
           continue
-     elif:
+     elif command == "fogg":
+          system("pip install turtle" or "pip3 install turtle")
+          system("python FOGG.py" or "python3 FOGG.py")
+          continue
 
      else:
           system(command)
