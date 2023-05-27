@@ -129,7 +129,7 @@ while command != "exit":
      elif command == "calculator":
           system("python Calculator.py" or "python3 Calculator.py")
           continue
-
+     elif:
 
      else:
           system(command)
