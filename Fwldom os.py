@@ -92,7 +92,7 @@ print(Fore.CYAN +  " Name App : Fwldom OS ; | App Version : 1.00.00 ; | More : 1
 sleep(0.5)
 print(Fore.GREEN + " Fwldom Hackers . For Woman Life Freedom . Are You Ready ?" + Fore.BLACK)
 sleep(0.4)
-print(Fore.LIGHTYELLOW_EX +   " WebSite : www.fwldom.rf.gd , GitHub : fwldom , Telegram : @Fwldom1")
+print(Fore.GREEN +   " WebSite : www.fwldom.rf.gd , GitHub : fwldom , Telegram : @Fwldom1")
 command = ""
 while command != "exit":
      command = str(input(" FO>> : "))
@@ -135,4 +135,5 @@ while command != "exit":
 
 
      else:
+          print()
           system(command)
