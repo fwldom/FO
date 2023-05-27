@@ -105,4 +105,5 @@ while command != "exit":
      elif command == "":
          print(" Please Type Command .")
      elif command[0:4] == "ping":
-          system(f"ping {command[4:-2]}")
+          command += " "
+          system(f"ping {command[4:-1]}")
