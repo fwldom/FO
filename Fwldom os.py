@@ -115,7 +115,7 @@ while command != "exit":
                 ============================================================
                 Command      &    about
                 ping              ping google.com : Get a ping from the site .
-                help              help fwldom os 
+                help              Help fwldom os 
                 ============================================================
                 Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
