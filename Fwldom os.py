@@ -93,13 +93,15 @@ sleep(0.5)
 print(Fore.GREEN + " Fwldom Hackers . For Woman Life Freedom . Are You Ready ?" + Fore.BLACK)
 sleep(0.4)
 print(Fore.LIGHTYELLOW_EX +   " WebSite : www.fwldom.rf.gd , GitHub : fwldom , Telegram : @Fwldom1")
+UserName = ""
+Password = ""
 #End Start Logo 
 UserName = str(input(Fore.GREEN+" Enter Name User : "))
 Password = str(input(f" Enter Password {UserName} : "))
 command = ""
 
 multiple_lines = [f"{UserName}",f"{Password}"]
-with open("app.log", "w") as f:
+with open("Data.txt", "w") as f:
   f.writelines(multiple_lines)
 while command != "exit":
      command = str(input(" FO>> : "))
