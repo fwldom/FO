@@ -94,10 +94,6 @@ print(Fore.GREEN + " Fwldom Hackers . For Woman Life Freedom . Are You Ready ?" 
 sleep(0.4)
 print(Fore.LIGHTYELLOW_EX +   " WebSite : www.fwldom.rf.gd , GitHub : fwldom , Telegram : @Fwldom1")
 command = ""
-
-multiple_lines = [f"{UserName}",f"{Password}"]
-with open("Data.txt", "w") as f:
-  f.writelines(multiple_lines)
 while command != "exit":
      command = str(input(" FO>> : "))
      command = command.lower().replace(" " , "")
