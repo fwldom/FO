@@ -117,6 +117,7 @@ while command != "exit":
                 Name Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
                 calculator        calculator / ** * - + 
+                Fogg              FOGG Game Fwldom Fun
 
 
 '''
