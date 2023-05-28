@@ -253,7 +253,13 @@ while True:
           made by Fwldom Group      
           Copyright (c) 2023 Fwldom 
           Built in 2023
+          Contact us
           Email : fwldomp@gmail.com
+          github : https://github.com/fwldom
+          twitter : https://twitter.com/fwldom
+          Telegram : https://t.me/Fwldom1
+          WebSite : https://www.fwldom.rf.gd
+
                 ''')
      else:
           print()
