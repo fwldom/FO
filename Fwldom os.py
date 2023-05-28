@@ -135,8 +135,8 @@ while True:
      elif command[0:4] == "fuck":
           print(" Fuck You !")
      elif command == "off" or "shutdown" or "exit" : 
-          print("Shut Down ...\n")
-          sleep("")
+          print(" Shut Down ...\n")
+          sleep(1)
           print(
 
 '''
