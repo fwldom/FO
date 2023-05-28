@@ -134,8 +134,10 @@ while True:
           continue
      elif command[0:4] == "fuck":
           print(" Fuck You !")
+          continue
      elif command == "off" or "shutdown" or "exit" : 
           print(" Shut Down ...\n")
+          system("cls" or "clear")
           sleep(1)
           print(
 
@@ -160,7 +162,9 @@ while True:
 
 '''
           )
+          
           sleep(0.6)
+          system("cls" or "clear")
           print(
 
 '''
@@ -185,6 +189,7 @@ while True:
 '''
           )
           sleep(0.7)
+          system("cls" or "clear")
           print(
 
 '''
@@ -205,6 +210,7 @@ while True:
 '''
           )
           sleep(0.9)
+          system("cls" or "clear")
           print(
 
 '''
@@ -220,6 +226,8 @@ while True:
 
 '''
           )
+          sleep(1)
+          system("cls" or "clear")
           print(
 
 '''
@@ -235,6 +243,8 @@ while True:
 
 '''
           )
+          system("cls" or "clear")
+          break
      else:
           print()
           system(command)
