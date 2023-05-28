@@ -250,8 +250,10 @@ while True:
           print('''
           about FO 
           FO Operating System 
-          made by Fwldom Group  
-
+          made by Fwldom Group      
+          Copyright (c) 2023 Fwldom 
+          Built in 2023
+          
                 ''')
      else:
           print()
