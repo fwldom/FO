@@ -132,7 +132,8 @@ while command != "exit":
           system("python FOGG.py" or "python3 FOGG.py")
           system("cls" or "clear")
           continue
-
+     elif command[0:4] == "fuck":
+          print(" Fuck You !")
 
      else:
           print()
