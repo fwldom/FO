@@ -247,7 +247,12 @@ while True:
           system("cls" or "clear")
           break
      elif command == "fo":
-          
+          print('''
+          about FO 
+          FO Operating System 
+          made by Fwldom Group  
+
+                ''')
      else:
           print()
           system(command)
