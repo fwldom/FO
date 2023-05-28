@@ -113,6 +113,7 @@ while True:
                 Command      &    about
                 ping              ping google.com : Get a ping from the site .
                 help              Help fwldom os 
+                shutdown          shutdown fwldom os
                 ============================================================
                 Name Apps         &    about 
                 smsbomb           SMS BOMBER Iran 94 Api High Speed .
