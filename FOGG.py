@@ -1,7 +1,7 @@
 import turtle
 num = int(turtle.textinput(title="Enter Number", prompt=("Enter forward !")))
-num2 = int(turtle.textinput(title="Enter Number", prompt=("Enter left to shekl !")))
-num3 = int(turtle.textinput(title="Enter Number", prompt=("Enter left har bar !  ")))
+num2 = int(turtle.textinput(title="Enter Number", prompt=("Enter left Range !")))
+num3 = int(turtle.textinput(title="Enter Number", prompt=("Enter left Range  2 !  ")))
 width = int(turtle.textinput(title="Enter Number", prompt=("Enter width !  ")))
 laki = turtle.Turtle()
 laki.shape('turtle')
