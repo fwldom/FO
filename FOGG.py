@@ -1,8 +1,10 @@
 import turtle
-num = int(turtle.textinput(title="Enter Number", prompt=("Enter forward !")))
-num2 = int(turtle.textinput(title="Enter Number", prompt=("Enter left Range !")))
-num3 = int(turtle.textinput(title="Enter Number", prompt=("Enter left Range  2 !  ")))
-width = int(turtle.textinput(title="Enter Number", prompt=("Enter width !  ")))
+num = int(turtle.textinput(title="Enter Number Forward", prompt=("Enter Forward !")))
+num = int(turtle.textinput(title="Enter Number Range", prompt=("Enter Forward !")))
+
+num2 = int(turtle.textinput(title="Enter Number left", prompt=("Enter left Range !")))
+num3 = int(turtle.textinput(title="Enter Number left", prompt=("Enter left End Range  !  ")))
+width = int(turtle.textinput(title="Enter Number width", prompt=("Enter width !  ")))
 laki = turtle.Turtle()
 laki.shape('turtle')
 laki.width(width)
