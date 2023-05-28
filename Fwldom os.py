@@ -163,7 +163,7 @@ while True:
 '''
           )
           
-          sleep(0.6)
+          sleep(2.6)
           system("cls" or "clear")
           print(
 
@@ -188,7 +188,7 @@ while True:
 
 '''
           )
-          sleep(0.7)
+          sleep(1.7)
           system("cls" or "clear")
           print(
 
@@ -209,7 +209,7 @@ while True:
 
 '''
           )
-          sleep(0.9)
+          sleep(1.9)
           system("cls" or "clear")
           print(
 
