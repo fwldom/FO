@@ -246,8 +246,8 @@ while True:
           )
           system("cls" or "clear")
           break
-     elif command == "":
-          pass
+     elif command == "fo":
+          
      else:
           print()
           system(command)
