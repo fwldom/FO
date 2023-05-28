@@ -94,7 +94,7 @@ print(Fore.GREEN + " Fwldom Hackers . For Woman Life Freedom . Are You Ready ?" 
 sleep(0.4)
 print(Fore.GREEN +   " WebSite : www.fwldom.rf.gd , GitHub : fwldom , Telegram : @Fwldom1")
 command = ""
-while command != "exit":
+while True:
      command = str(input(" FO>> : "))
      command = command.lower().replace(" " , "")
      if command == "smsbomb":
@@ -134,7 +134,107 @@ while command != "exit":
           continue
      elif command[0:4] == "fuck":
           print(" Fuck You !")
-     elif 
+     elif command == "off" or "shutdown" or "exit" : 
+          print("Shut Down ...\n")
+          sleep("")
+          print(
+
+'''
+...................................................................
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+.                                                                 .
+...................................................................
+
+
+
+'''
+          )
+          sleep(0.6)
+          print(
+
+'''
+
+                                                           
+.                                                             
+. .............................................................
+.                                                             .
+.                                                             .
+.                                                             .
+.                                                             .
+.                     SHUT DOWN                               .
+.                                                             .
+.                                                             .
+.                                                             .
+.                                                             .
+.                                                             .
+...............................................................
+
+
+
+'''
+          )
+          sleep(0.7)
+          print(
+
+'''
+
+                                                           
+                                                            
+
+.........................................................
+.                                                       .
+.                                                       .
+.                     SHUT DOWN                         .
+.                                                       .
+.                                                       .
+.........................................................
+
+
+
+'''
+          )
+          sleep(0.9)
+          print(
+
+'''
+
+                                                           
+                                                            
+
+.........................................................
+.                     SHUT DOWN                         .
+.........................................................
+
+
+
+'''
+          )
+          print(
+
+'''
+
+                                                           
+                                                            
+
+             ............
+             .SHUT DOWN .
+             ............
+
+
+
+'''
+          )
      else:
           print()
           system(command)
