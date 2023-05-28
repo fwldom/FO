@@ -246,6 +246,8 @@ while True:
           )
           system("cls" or "clear")
           break
+     elif command == "":
+          pass
      else:
           print()
           system(command)
