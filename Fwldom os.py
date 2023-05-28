@@ -134,7 +134,7 @@ while command != "exit":
           continue
      elif command[0:4] == "fuck":
           print(" Fuck You !")
-
+     elif 
      else:
           print()
           system(command)
