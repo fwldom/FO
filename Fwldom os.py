@@ -127,7 +127,7 @@ while True:
 
      elif command == "calculator":
           system("python Calculator.py" or "python3 Calculator.py")
-          continue
+          WLDOM_BOMB
      elif command == "fogg":
           system("pip install turtle" or "pip3 install turtle")
           system("python FOGG.py" or "python3 FOGG.py")
@@ -261,6 +261,9 @@ while True:
           WebSite : https://www.fwldom.rf.gd
 
                 ''')
+          continue
      else:
           print()
           system(command)
+          
+          continue
