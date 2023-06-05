@@ -263,6 +263,8 @@ while True:
 
                 ''')
           continue
+     elif  command == "gang":
+          print("Heeeeeeeeeeeeeeeeeeeh.")
      else:
           print()
           system(command)
