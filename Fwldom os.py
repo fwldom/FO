@@ -263,8 +263,13 @@ while True:
 
                 ''')
           continue
-     elif  command == "gang":
+     elif  command[0:4] == "gang":
           print("Heeeeeeeeeeeeeeeeeeeh.")
+     elif command == "load":
+          print("Load . I Know")
+     elif command == "know":
+          print("I Know")
+
      else:
           print()
           system(command)
