@@ -269,6 +269,8 @@ while True:
           print("Load . I Know")
      elif command == "know":
           print("I Know")
+     elif command == "":
+          print()
 
      else:
           print()
