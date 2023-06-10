@@ -271,7 +271,6 @@ while True:
           print("I Know")
      elif command == "":
           print()
-
      else:
           print()
           system(command)

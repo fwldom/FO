@@ -12,5 +12,5 @@ for i in range(numr1):
     for j in range(numr2):
         laki.forward(num)
         laki.left(num2)
-    laki.left(num3)
+    laki.right(num3)
 input()
