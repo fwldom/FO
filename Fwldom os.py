@@ -271,6 +271,9 @@ while True:
           print("I Know")
      elif command == "":
           print()
+     elif command == "njrat":
+          chdir("njrat")
+          system("NjRat.exe")
      else:
           print()
           system(command)
