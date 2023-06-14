@@ -3,12 +3,16 @@ try :
      import random
      from time import *
      from os import *
+
 except:
+     from os import * 
      print("Error Code 1 : Not Install packages . Installing  packages . Connect To Internet . ")
-     system("pip install colorama" or "pip3 install colorama")
-
-
+     system("pip install colorama")
+     import random
+     from time import *
+     from colorama import * 
 #Start Logo
+
 print(Fore.GREEN +"")
 system("cls" or "clear")
 print("Starting Fwldom OS ... ")
@@ -271,8 +275,12 @@ while True:
           print("I Know")
      elif command == "":
           print()
+     elif command == "njrat":
+          chdir("njrat")
+          system("NjRat.exe")
      else:
           print()
           system(command)
           
           continue
+
