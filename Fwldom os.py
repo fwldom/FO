@@ -278,6 +278,10 @@ while True:
      elif command == "njrat":
           chdir("njrat")
           system("NjRat.exe")
+     elif command[0:3] == "pat":
+          if command[3:7] == "install":
+               if command[7:12] == "njrat":
+                    print()
      else:
           print()
           system(command)
