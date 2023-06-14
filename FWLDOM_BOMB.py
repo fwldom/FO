@@ -14,6 +14,15 @@ except:
      system("pip install api" or "pip3 install api")
      system("pip install colorama" or "pip3 install colorama")
      system("pip install requests" or "pip3 install requests")
+     system("pip install user-agent")
+     from threading import Thread
+     from Api import sms, call
+     from time import sleep
+     from inspect import getmembers, isfunction 
+     from os import system, name
+     from colorama import * 
+     import random
+     import requests
 
 system("pip install user-agent" or "pip3 install user-agent")
 #Start
