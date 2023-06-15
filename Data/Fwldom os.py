@@ -282,15 +282,33 @@ while True:
      elif command == "njrat":
           chdir("C:/Apps/fwldom-os/Tools/njrat")
           system("NjRat.exe")
+    #      elif command
      elif command[0:3] == "pat":
-          print("oj")
           if command[3:10] == "install":
-               print("oj")
                if command[10:15] == "njrat":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
+                    system("cls")
+                    sleep(1)
                     system("git clone https://github.com/fwldom/njrat.git")
-                    system("cd njrat")
-                    system("NjRat.exe")
+                    system("cls")
+                    sleep(1)                    
+                    print(" The NjRat has been successfully installed .... ")
+                    sleep(3)
+                    AppList["njrat"] = "Y"
+                    print(AppList["njrat"])
+               elif command[10:] == "calculator-gu":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing calculator-gu .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/Calculator.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The calculator-gu has been successfully installed ... ")
+                    sleep(3)
+               
+
+                    
 
      else:
           print()
