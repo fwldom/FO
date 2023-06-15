@@ -1,10 +1,9 @@
 from os import *
 from time import *
-IsFile = path.isfile("\"C:\\Apps\\fwldom-os\\Fwldom os.py\"")
-#IsFile = "True"
+IsFile = path.isfile("C:\\Apps\\fwldom-os\\Fwldom os.py")
 if IsFile == True:
     print(IsFile)
-   # sleep(5)
+    sleep(5)
     chdir("C:/Apps/fwldom-os/")
     system("python \"Fwldom os.py\"")
 if IsFile == False:
