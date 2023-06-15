@@ -268,7 +268,6 @@ while True:
           twitter : https://twitter.com/fwldom
           Telegram : https://t.me/Fwldom1
           WebSite : https://www.fwldom.rf.gd
-
                 ''')
           continue
      elif  command[0:4] == "gang":
@@ -289,7 +288,17 @@ while True:
                          system("NjRat.exe")
                     else:
                          print("Not Install NjRat. Please install NjRat With Command . pat install njrat")
-    #      elif command
+     elif command == "calculator-gu":
+          chdir("C:/Apps/fwldom-os/Tools/calculator")
+          if AppList["calculator-gu"] == "Y":
+               system("Calculator.exe")
+          else:
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/Calculator.exe'))
+                    if  IsFile == True:
+                         system("Calculator.exe")
+                    else:
+                         print("Not Install NjRat. Please install NjRat With Command . pat install calculator-gu")
+
      elif command[0:3] == "pat":
           if command[3:10] == "install":
                if command[10:15] == "njrat":
