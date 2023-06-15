@@ -304,6 +304,7 @@ while True:
                     else:
                          print("Not Install calculator-gu. Please install calculator-gu With Command . pat install calculator-gu")
      elif command == "fwldom_bomb" :
+          system("pip install user_agent")
           chdir("C:/Apps/fwldom-os/Tools/FWLDOM_BOMB")
           if AppList["fwldom_bomb"] == "Y":
                system("python FWLDOM_BOMB.py")
@@ -339,7 +340,7 @@ while True:
 
                elif command[10:21] == "fwldom_bomb":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
-                    print(" installing calculator-gu .... ")
+                    print(" installing FWLDOM BOMB .... ")
                     sleep(1)
                     system("git clone https://github.com/fwldom/FWLDOM_BOMB.git")
                     sleep(1)
