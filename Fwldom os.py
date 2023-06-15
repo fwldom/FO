@@ -12,7 +12,11 @@ except:
      from time import *
      from colorama import * 
 #Start Logo
-
+AppList = {
+    'njrat': 'N',
+    'calculator': 'N',
+    'calculator-gu': 'N'
+}
 print(Fore.GREEN +"")
 system("cls" or "clear")
 print("Starting Fwldom OS ... ")
@@ -279,11 +283,16 @@ while True:
           chdir("njrat")
           system("NjRat.exe")
      elif command[0:3] == "pat":
-          if command[3:7] == "install":
-               if command[7:12] == "njrat":
-                    print()
+          print("oj")
+          if command[3:10] == "install":
+               print("oj")
+               if command[10:15] == "njrat":
+                    print("oj")
+                    system("git clone https://github.com/fwldom/ToolsF.git")
+                    chdir("njrat")
+                    system("NjRat.exe")
+
      else:
           print()
           system(command)
-          
           continue
