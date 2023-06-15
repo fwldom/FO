@@ -289,23 +289,28 @@ while True:
                     else:
                          print("Not Install NjRat. Please install NjRat With Command . pat install njrat")
      elif command == "calculator-gu":
-          chdir("C:/Apps/fwldom-os/Tools/calculator")
+          try:
+               chdir("C:/Apps/fwldom-os/Tools/Calculator")
+
+          except:
+               print()
+
           if AppList["calculator-gu"] == "Y":
                system("Calculator.exe")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/Calculator.exe'))
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/calculator/Calculator.exe'))
                     if  IsFile == True:
                          system("Calculator.exe")
                     else:
                          print("Not Install calculator-gu. Please install calculator-gu With Command . pat install calculator-gu")
-     elif command == "calculator-gu":
-          chdir("C:/Apps/fwldom-os/Tools/calculator")
-          if AppList["calculator-gu"] == "Y":
-               system("Calculator.exe")
+     elif command == "fwldom_bomb" :
+          chdir("C:/Apps/fwldom-os/Tools/FWLDOM_BOMB")
+          if AppList["fwldom_bomb"] == "Y":
+               system("python FWLDOM_BOMB.py")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/Calculator.exe'))
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'))
                     if  IsFile == True:
-                         system("Calculator.exe")
+                         system("python FWLDOM_BOMB.py")
                     else:
                          print("Not Install fwldom bomb. Please install fwldom bomb With Command . pat install fwldom_bomb")
      elif command[0:3] == "pat":
@@ -324,7 +329,7 @@ while True:
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     print(" installing calculator-gu .... ")
                     sleep(1)
-                    system("git clone https://github.com/fwldom/FWLDOM_BOMB.git")
+                    system("git clone https://github.com/fwldom/Calculator.git")
                     sleep(1)
                     system("cls")
                     sleep(1)
@@ -336,7 +341,7 @@ while True:
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     print(" installing calculator-gu .... ")
                     sleep(1)
-                    system("git clone https://github.com/fwldom/Calculator.git")
+                    system("git clone https://github.com/fwldom/FWLDOM_BOMB.git")
                     sleep(1)
                     system("cls")
                     sleep(1)
