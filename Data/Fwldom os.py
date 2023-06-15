@@ -15,7 +15,8 @@ except:
 AppList = {
     'njrat': 'N',
     'fwldom_bomb': 'N',
-    'calculator-gu': 'N'
+    'calculator-gu': 'N',
+    'fogg' : 'N'
 }
 print(Fore.GREEN +"")
 system("cls" or "clear")
@@ -137,10 +138,6 @@ while True:
 
      elif command == "calculator":
           system("python Calculator.py" or "python3 Calculator.py")
-     elif command == "fogg":
-          system("pip install turtle" or "pip3 install turtle")
-          system("python FOGG.py" or "python3 FOGG.py")
-          system("cls" or "clear")
           continue
      elif command[0:4] == "fuck":
           print(" Fuck You !")
@@ -305,7 +302,13 @@ while True:
                          print("Not Install calculator-gu. Please install calculator-gu With Command . pat install calculator-gu")
      elif command == "fwldom_bomb" :
           system("pip install user_agent")
-          chdir("C:/Apps/fwldom-os/Tools/FWLDOM_BOMB")
+          system("pip install api")
+          try:
+               chdir("C:/Apps/fwldom-os/Tools/FWLODM_BOMB")
+
+          except:
+               print()    
+                
           if AppList["fwldom_bomb"] == "Y":
                system("python FWLDOM_BOMB.py")
           else:
@@ -314,6 +317,19 @@ while True:
                          system("python FWLDOM_BOMB.py")
                     else:
                          print("Not Install fwldom bomb. Please install fwldom bomb With Command . pat install fwldom_bomb")
+     elif command == "fogg" :
+          try:
+              chdir("C:/Apps/fwldom-os/Tools/FOGG")
+          except:
+               print()
+          if AppList["fogg"] == "Y":
+               system("python FOGG.py")
+          else:
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py'))
+                    if  IsFile == True:
+                         system("python FOGG.py")
+                    else:
+                         print("Not Install FOGG Game. Please install FOGG Game With Command . pat install foggg")    
      elif command[0:3] == "pat":
           if command[3:10] == "install":
                if command[10:15] == "njrat":
@@ -349,6 +365,17 @@ while True:
                     print("The Fwldom Bomb has been successfully installed ... ")
                     sleep(3)
                     AppList["fwldom_bomb"] = "Y"        
+               elif command[10:14] == "fogg":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing FOGG GAME  .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/FOGG.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The FOGG GAme has been successfully installed ... ")
+                    sleep(3)
+                    AppList["fogg"] = "Y"   
 
      else:
           print()
