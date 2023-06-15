@@ -280,7 +280,7 @@ while True:
      elif command == "":
           print()
      elif command == "njrat":
-          chdir("njrat")
+          chdir("C:/Programenjrat")
           system("NjRat.exe")
      elif command[0:3] == "pat":
           print("oj")
@@ -288,8 +288,9 @@ while True:
                print("oj")
                if command[10:15] == "njrat":
                     print("oj")
-                    system("git clone https://github.com/fwldom/njrat.git")
+                    system(""&"git clone https://github.com/fwldom/njrat.git")
                     system("cd njrat")
+                    system("cd")
                     system("NjRat.exe")
 
      else:
