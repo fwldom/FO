@@ -281,7 +281,14 @@ while True:
           print()
      elif command == "njrat":
           chdir("C:/Apps/fwldom-os/Tools/njrat")
-          system("NjRat.exe")
+          if AppList["njrat"] == "Y":
+               system("NjRat.exe")
+          else:
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe'))
+                    if  IsFile == True:
+                         system("NjRat.exe")
+                    else:
+                         print("Not Install NjRat. Please install NjRat With Command . pat install njrat")
     #      elif command
      elif command[0:3] == "pat":
           if command[3:10] == "install":
@@ -295,7 +302,6 @@ while True:
                     print(" The NjRat has been successfully installed .... ")
                     sleep(3)
                     AppList["njrat"] = "Y"
-                    print(AppList["njrat"])
                elif command[10:] == "calculator-gu":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     print(" installing calculator-gu .... ")
