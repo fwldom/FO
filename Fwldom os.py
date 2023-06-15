@@ -288,8 +288,8 @@ while True:
                print("oj")
                if command[10:15] == "njrat":
                     print("oj")
-                    system("git clone https://github.com/fwldom/ToolsF.git")
-                    chdir("njrat")
+                    system("git clone https://github.com/fwldom/njrat.git")
+                    system("cd njrat")
                     system("NjRat.exe")
 
      else:
