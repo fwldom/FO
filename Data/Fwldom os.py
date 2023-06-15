@@ -14,7 +14,7 @@ except:
 #Start Logo
 AppList = {
     'njrat': 'N',
-    'calculator': 'N',
+    'fwldom_bomb': 'N',
     'calculator-gu': 'N'
 }
 print(Fore.GREEN +"")
@@ -297,8 +297,17 @@ while True:
                     if  IsFile == True:
                          system("Calculator.exe")
                     else:
-                         print("Not Install NjRat. Please install NjRat With Command . pat install calculator-gu")
-
+                         print("Not Install calculator-gu. Please install calculator-gu With Command . pat install calculator-gu")
+     elif command == "calculator-gu":
+          chdir("C:/Apps/fwldom-os/Tools/calculator")
+          if AppList["calculator-gu"] == "Y":
+               system("Calculator.exe")
+          else:
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/Calculator.exe'))
+                    if  IsFile == True:
+                         system("Calculator.exe")
+                    else:
+                         print("Not Install fwldom bomb. Please install fwldom bomb With Command . pat install fwldom_bomb")
      elif command[0:3] == "pat":
           if command[3:10] == "install":
                if command[10:15] == "njrat":
@@ -311,7 +320,19 @@ while True:
                     print(" The NjRat has been successfully installed .... ")
                     sleep(3)
                     AppList["njrat"] = "Y"
-               elif command[10:] == "calculator-gu":
+               elif command[10:23] == "calculator-gu":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing calculator-gu .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/FWLDOM_BOMB.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The Calculator Gu has been successfully installed ... ")
+                    sleep(3)
+                    AppList["calculator-gu"] = "Y"
+
+               elif command[10:21] == "fwldom_bomb":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     print(" installing calculator-gu .... ")
                     sleep(1)
@@ -319,11 +340,9 @@ while True:
                     sleep(1)
                     system("cls")
                     sleep(1)
-                    print("The calculator-gu has been successfully installed ... ")
+                    print("The Fwldom Bomb has been successfully installed ... ")
                     sleep(3)
-               
-
-                    
+                    AppList["fwldom_bomb"] = "Y"        
 
      else:
           print()
