@@ -392,5 +392,6 @@ while True:
 
      else:
           print("Command Not Found .")
+          print("Command To Terminal OS")
           system(command)
           continue
