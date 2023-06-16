@@ -1,3 +1,4 @@
+
 try :
      from colorama import * 
      import random
@@ -16,7 +17,8 @@ AppList = {
     'njrat': 'N',
     'fwldom_bomb': 'N',
     'calculator-gu': 'N',
-    'fogg' : 'N'
+    'fogg' : 'N',
+    'speedtestnet':'N'
 }
 print(Fore.GREEN +"")
 system("cls" or "clear")
@@ -282,10 +284,10 @@ while True:
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     sleep(1)
                     system("git clone https://github.com/sivel/speedtest-cli.git")
-                    system("cd speedtest-cli")
-                    system("python setup.py install")
-                    system("speedtest-cli")
-                 #   AppList[""] = "Y" 
+                    chdir("C:\\Apps\\fwldom-os\\Tools\\speedtest-cli")
+                    system("cls")
+                    system("python speedtest.py")
+                    AppList["speedtestnet"] = "Y" 
      elif command == "njrat":
           chdir("C:/Apps/fwldom-os/Tools/njrat")
           if AppList["njrat"] == "Y":
