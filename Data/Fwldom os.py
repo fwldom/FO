@@ -275,6 +275,13 @@ while True:
           print("I Know")
      elif command == "":
           print()
+          #Apps And Tools
+     elif command[0:4] == "test":
+          if command[4:9]=="speed":
+               if command[9:17] == "internet":
+                    system("pip install git+https://github.com/sivel/speedtest-cli.git")
+                    system("cls")
+                    system("speedtest-cli")
      elif command == "njrat":
           chdir("C:/Apps/fwldom-os/Tools/njrat")
           if AppList["njrat"] == "Y":
