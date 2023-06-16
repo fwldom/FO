@@ -279,9 +279,13 @@ while True:
      elif command[0:4] == "test":
           if command[4:9]=="speed":
                if command[9:17] == "internet":
-                    system("pip install git+https://github.com/sivel/speedtest-cli.git")
-                    system("cls")
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    sleep(1)
+                    system("git clone https://github.com/sivel/speedtest-cli.git")
+                    system("cd speedtest-cli")
+                    system("python setup.py install")
                     system("speedtest-cli")
+                 #   AppList[""] = "Y" 
      elif command == "njrat":
           chdir("C:/Apps/fwldom-os/Tools/njrat")
           if AppList["njrat"] == "Y":
