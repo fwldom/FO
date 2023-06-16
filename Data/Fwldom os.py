@@ -98,7 +98,7 @@ print(           " ██      ██    ██    ██   ██          █�
 print(           " ██      ██    ██    ██   ██          ██     ██        █████       ██   ██   ██")
 sleep(2)
 print(           " ██       ███████████     ███████      ███████ \n" + Fore.RESET)
-print(Fore.CYAN +  " Name App : Fwldom OS ; | App Version : 1.00.00 ; | More : 100 Api .")
+print(Fore.CYAN +  " Name App : Fwldom OS ; | App Version : 1.00.00 ; | More : 10000 Apps And Games Install With pat .")
 sleep(0.5)
 print(Fore.GREEN + " Fwldom Hackers . For Woman Life Freedom . Are You Ready ?" + Fore.BLACK)
 sleep(0.4)
