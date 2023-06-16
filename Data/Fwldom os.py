@@ -391,6 +391,6 @@ while True:
                     AppList["fogg"] = "Y"   
 
      else:
-          print()
+          print("Command Not Found .")
           system(command)
           continue
