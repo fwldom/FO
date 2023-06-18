@@ -396,6 +396,8 @@ while True:
                     print("clock         DIGITAL . Python . TIME SYSTEM SHOW DIGITAL ")
                if path.isfile('C:/Apps/fwldom-os/Tools/TATI/TATI.py'):
                     print("tati          TATI GAME . Python . MADE BY FWLDOM")
+               if path.isfile('C:/Apps/fwldom-os/Tools/GUTWORD/GUTWORD.py'):
+                    print("gutword       GUTWOIRD GAME . Python . MADE BY FWLDOM")
 
 
           if command[3:10] == "install":
@@ -464,6 +466,17 @@ while True:
                     print("The TATI GAME has been successfully installed ... ")
                     sleep(3)
                     AppList["tati"] = "Y" 
+               elif command[10:17] == "gutword":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing GUTWORD GAME  .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/GUTWORD.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The GUTWOIRD GAME has been successfully installed ... ")
+                    sleep(3)
+                    AppList["gutword"] = "Y" 
 #=========================# End Pat Installer
 #=========================# System Command
      else:
