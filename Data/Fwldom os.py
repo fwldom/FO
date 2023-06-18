@@ -275,6 +275,9 @@ while True:
           continue
      elif  command[0:4] == "gang":
           print("Heeeeeeeeeeeeeeeeeeeh.")
+     elif command == "restart":
+          print("RESTARTING .....")
+          system("python \"C:/Apps/fwldom-os/Data/Fwldom os.py\"")
      elif command == "load":
           print("Load . I Know")
      elif command == "know":
@@ -351,13 +354,17 @@ while True:
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
           if command[3:7] == "list":
-               print("Name //////// More  .")
-#                   print("Name //////// More  .")
+               print("Name          More  .")
+#                   print("Name          More  .")
                if path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe'):
                     print("njrat         njrat. Rat . GU . ")
                if path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py'):
                     print("FOGG GAME     FOGG Game . Made By Fwldom . Programing Language Python . YEAH ")
-          
+               if path.isfile('C:/Apps/fwldom-os/Tools/calculator/Calculator.exe'):
+                    print("calculator-gu ")
+               if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
+                    print("fwldom_bomb   100 API . IRANIAN . Python")
+               #if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
 
 
           if command[3:10] == "install":
