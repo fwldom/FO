@@ -411,21 +411,13 @@ while True:
      elif command[0:3] == "pat":
           if command[3:9] == "search":
                okse=False
-               IFound=""
-               for item in AppList:
-                    command += " "
-                   # print("searching .")
-                   # sleep(0.1)
-                   # system("cls")
-                   # sleep(0.1)
-                   # print("searching ..") 
-                   # system("cls")
-                   # sleep(0.1)
-                   # print("searching ...") 
-                   # system("cls")
-                    if item == command[9:-1]:
-                         IFound += item+""
-                         print(" Found Apps Or Game : " + IFound)
+               command +=" "
+               while True:
+                    if command[9:-1] == AppList.items():
+                         print(command[9:-1])
+
+          
+                         
 
           print(" Found Apps Or Game : " + IFound)
 
