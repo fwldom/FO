@@ -22,7 +22,7 @@ AppList = {
     'clock': 'N',
     'tati':'N',
     'gutword':'N',
-    'ropas':'N'
+    'snake':'N'
 }
 print(Fore.GREEN +"")
 system("cls" or "clear")
@@ -391,10 +391,43 @@ while True:
                     if IsFile == True:
                          system("python GUTWORD.py")
                     else:
-                         print("Not Install GUTWORD GAME . Please install GUTWORD  With Command . pat install GUTWORD")  
+                         print("Not Install GUTWORD GAME . Please install GUTWORD  With Command . pat install GUTWORD") 
+     elif command == "snake":
+               try:
+                    chdir("C:/Apps/fwldom-os/Tools/Snake")
+               except:
+                    print()
+               if AppList["snake"] == "Y":
+                    system("python Snake.py")
+               else:
+                    print()
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/Snake/Snake.py')
+                    if IsFile == True:
+                         system("python Snake.py")
+                    else:
+                         print("Not Install Snake  GAME . Please install Snake Game  With Command . pat install Snake")   
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
+          if command[3:9] == "search":
+               okse=False
+               for item in AppList:
+                    command += " "
+                    print("searching .")
+                    sleep(0.1)
+                    system("cls")
+                    sleep(0.1)
+                    print("searching ..") 
+                    system("cls")
+                    sleep(0.1)
+                    print("searching ...") 
+                    system("cls")
+                    if item == command[9:-1]:
+                         print(" Found Apps Or Game : " + item)
+                         okse=True
+               if okse == False:
+                    print("Not Found : " + command[9:-1])
+
           if command[3:7] == "list":
                print("Name          More  .")
 #                   print("Name          More  .")
@@ -412,6 +445,9 @@ while True:
                     print("tati          TATI GAME . Python . MADE BY FWLDOM")
                if path.isfile('C:/Apps/fwldom-os/Tools/GUTWORD/GUTWORD.py'):
                     print("gutword       GUTWOIRD GAME . Python . MADE BY FWLDOM")
+               if path.isfile('C:/Apps/fwldom-os/Tools/Snake/Snake.py'):
+                    print("Snake        Snake  GAME . Python . MADE BY FWLDOM")
+
 
 
           if command[3:10] == "install":
@@ -491,6 +527,18 @@ while True:
                     print("The GUTWOIRD GAME has been successfully installed ... ")
                     sleep(3)
                     AppList["gutword"] = "Y" 
+               elif command[10:15] == "snake":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing SNAKE GAME  .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/Snake.git")
+                    sleep(1)
+                    system("cls")
+                    system("pip install pygame")
+                    sleep(1)
+                    print("The Snake GAME has been successfully installed ... ")
+                    sleep(3)
+                    AppList["Snake"] = "Y" 
 #=========================# End Pat Installer
 #=========================# System Command
      else:
