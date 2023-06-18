@@ -389,7 +389,7 @@ while True:
                if path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'):
                     print("CLOCK-dg      DIGITAL . Python . TIME SYSTEM SHOW DIGITAL ")
                if path.isfile('C:/Apps/fwldom-os/Tools/TATI/TATI.py'):
-                    print("TATI          TATI GAME . Python .  ")
+                    print("TATI          TATI GAME . Python . MADE BY FWLDOM")
 
 
           if command[3:10] == "install":
