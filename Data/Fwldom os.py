@@ -387,7 +387,9 @@ while True:
                if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
                     print("fwldom_bomb   100 API . IRANIAN . Python")
                if path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'):
-                    print("CLOCK-dg      DIGITAL . Python . TIME SYSTEM SHOW DIGITAL p")
+                    print("CLOCK-dg      DIGITAL . Python . TIME SYSTEM SHOW DIGITAL ")
+               if path.isfile('C:/Apps/fwldom-os/Tools/TATI/TATI.py'):
+                    print("TATI          TATI GAME . Python .  ")
 
 
           if command[3:10] == "install":
