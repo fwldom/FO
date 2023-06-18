@@ -350,6 +350,16 @@ while True:
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
+          if command[3:7] == "list":
+               print("Name //////// More  .")
+#                   print("Name //////// More  .")
+               if path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe'):
+                    print("njrat         njrat. Rat . GU . ")
+               if path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py'):
+                    print("FOGG GAME     FOGG Game . Made By Fwldom . Programing Language Python . YEAH ")
+          
+
+
           if command[3:10] == "install":
                if command[10:15] == "njrat":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
