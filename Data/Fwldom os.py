@@ -18,7 +18,11 @@ AppList = {
     'fwldom_bomb': 'N',
     'calculator-gu': 'N',
     'fogg' : 'N',
-    'speedtestnet':'N'
+    'speedtestnet':'N',
+    'clock': 'N',
+    'tati':'N',
+    'gutword':'N',
+    'ropas':'N'
 }
 print(Fore.GREEN +"")
 system("cls" or "clear")
