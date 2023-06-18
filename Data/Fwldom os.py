@@ -65,34 +65,34 @@ print("FWL******")
 sleep(0.0002)
 system("cls" or "clear")
 print("FWLD*****")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM***")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_**")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_O*")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.5)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.5)
+sleep(0.1)
 system("cls" or "clear")
 print("FWLDOM_OS")
-sleep(0.5)
+sleep(0.1)
 system("cls" or "clear")
 system("clear")
 print(Fore.BLUE +" ██████  ██    ██    ██   ██           ████████        █████       ████████████")
@@ -410,16 +410,20 @@ while True:
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
           if command[3:9] == "search":
-               okse=False
-               command +=" "
-               while True:
-                    if command[9:-1] == AppList.items():
-                         print(command[9:-1])
-
-          
-                         
-
-          print(" Found Apps Or Game : " + IFound)
+               command += " "
+               for item in AppList:
+                    print("searching .")
+                    sleep(0.1)
+                    system("cls")
+                    sleep(0.1)
+                    print("searching ..") 
+                    system("cls")
+                    sleep(0.1)
+                    print("searching ...") 
+                    system("cls")
+                    if item == command[9:-1]:
+                         print(" Found Apps Or Game : " + command[9:-1])
+                         break
 
           if command[3:7] == "list":
                print("Name          More  .")
