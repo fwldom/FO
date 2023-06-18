@@ -343,6 +343,8 @@ while True:
                          system("python FOGG.py")
                     else:
                          print("Not Install FOGG Game. Please install FOGG Game With Command . pat install foggg")    
+#=========================          # End Apps And Tools
+#=========================          # Start Pat Installer
      elif command[0:3] == "pat":
           if command[3:10] == "install":
                if command[10:15] == "njrat":
@@ -366,7 +368,6 @@ while True:
                     print("The Calculator Gu has been successfully installed ... ")
                     sleep(3)
                     AppList["calculator-gu"] = "Y"
-
                elif command[10:21] == "fwldom_bomb":
                     chdir("C:\\Apps\\fwldom-os\\Tools")
                     print(" installing FWLDOM BOMB .... ")
@@ -389,7 +390,8 @@ while True:
                     print("The FOGG GAme has been successfully installed ... ")
                     sleep(3)
                     AppList["fogg"] = "Y"   
-
+#=========================# End Pat Installer
+#=========================# System Command
      else:
           print("Command Not Found .")
           print("Command To Terminal OS")
