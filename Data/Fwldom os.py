@@ -277,7 +277,7 @@ while True:
           print("Heeeeeeeeeeeeeeeeeeeh.")
      elif command == "restart":
           print("RESTARTING .....")
-          system("python \"C:/Apps/fwldom-os/Data/Fwldom os.py\"")
+          system("python \"C:/Apps/fwldom-os/Fwldom os.py\"")
      elif command == "load":
           print("Load . I Know")
      elif command == "know":
