@@ -300,7 +300,7 @@ while True:
           if AppList["njrat"] == "Y":
                system("NjRat.exe")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe'))
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe')
                     if  IsFile == True:
                          system("NjRat.exe")
                     else:
@@ -315,7 +315,7 @@ while True:
           if AppList["calculator-gu"] == "Y":
                system("Calculator.exe")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/calculator/Calculator.exe'))
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/calculator/Calculator.exe')
                     if  IsFile == True:
                          system("Calculator.exe")
                     else:
@@ -332,7 +332,7 @@ while True:
           if AppList["fwldom_bomb"] == "Y":
                system("python FWLDOM_BOMB.py")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'))
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py')
                     if  IsFile == True:
                          system("python FWLDOM_BOMB.py")
                     else:
@@ -345,24 +345,23 @@ while True:
           if AppList["fogg"] == "Y":
                system("python FOGG.py")
           else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py'))
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py')
                     if  IsFile == True:
                          system("python FOGG.py")
                     else:
                          print("Not Install FOGG Game. Please install FOGG Game With Command . pat install fogg")
-     elif command == "clock-dg" :
+     elif command == "clock-dg" or command == "clock" :
           try:
               chdir("C:/Apps/fwldom-os/Tools/ClockDG")
+              if AppList["clock"] == "Y":
+                    system("python ClockDG.py")
           except:
                print()
-          if AppList["clock"] == "Y":
-               system("python ClockDG.py")
-          else:
-                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'))
-                    if  IsFile == True:
-                         system("python ClockDG.py")
-                    else:
-                         print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
+               IsFile = path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py')
+               if IsFile == True:
+                    system("python ClockDG.py")
+               else:
+                    print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
