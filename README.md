@@ -1,3 +1,6 @@
+```
+fwldom os is based on Python
+```
 # fwldom-os
 ## For Woman Life Freedom
 ## *requisites*
