@@ -39,7 +39,7 @@ print("Loading .")
 sleep(0.1)
 system("cls" or "clear")
 print("Loading ..")
-sleep(0.5)
+sleep(0.1)
 system("cls" or "clear")
 print("Loading ...")
 sleep(0.1)
@@ -53,16 +53,16 @@ sleep(1)
 
 system("cls" or "clear")
 print("*********")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("F********")
-sleep(0.2)
+sleep(0.1)
 system("cls" or "clear")
 print("FW*******")
 sleep(0.001)
 system("cls" or "clear")
 print("FWL******")
-sleep(0.2)
+sleep(0.0002)
 system("cls" or "clear")
 print("FWLD*****")
 sleep(0.2)
@@ -411,23 +411,23 @@ while True:
      elif command[0:3] == "pat":
           if command[3:9] == "search":
                okse=False
+               IFound=""
                for item in AppList:
                     command += " "
-                    print("searching .")
-                    sleep(0.1)
-                    system("cls")
-                    sleep(0.1)
-                    print("searching ..") 
-                    system("cls")
-                    sleep(0.1)
-                    print("searching ...") 
-                    system("cls")
+                   # print("searching .")
+                   # sleep(0.1)
+                   # system("cls")
+                   # sleep(0.1)
+                   # print("searching ..") 
+                   # system("cls")
+                   # sleep(0.1)
+                   # print("searching ...") 
+                   # system("cls")
                     if item == command[9:-1]:
-                         print(" Found Apps Or Game : " + item)
-                         okse=True
-                         break
-               if okse == False:
-                    print("Not Found : " + command[9:-1])
+                         IFound += item+""
+                         print(" Found Apps Or Game : " + IFound)
+
+          print(" Found Apps Or Game : " + IFound)
 
           if command[3:7] == "list":
                print("Name          More  .")
