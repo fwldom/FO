@@ -349,7 +349,20 @@ while True:
                     if  IsFile == True:
                          system("python FOGG.py")
                     else:
-                         print("Not Install FOGG Game. Please install FOGG Game With Command . pat install foggg")    
+                         print("Not Install FOGG Game. Please install FOGG Game With Command . pat install fogg")
+     elif command == "clock-dg" :
+          try:
+              chdir("C:/Apps/fwldom-os/Tools/ClockDG")
+          except:
+               print()
+          if AppList["clock"] == "Y":
+               system("python ClockDG.py")
+          else:
+                    IsFile = str(path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'))
+                    if  IsFile == True:
+                         system("python ClockDG.py")
+                    else:
+                         print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
@@ -364,7 +377,8 @@ while True:
                     print("calculator-gu ")
                if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
                     print("fwldom_bomb   100 API . IRANIAN . Python")
-               #if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
+               if path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'):
+                    print("CLOCK-dg      DIGITAL . Python . TIME SYSTEM SHOW DIGITAL p")
 
 
           if command[3:10] == "install":
@@ -411,6 +425,17 @@ while True:
                     print("The FOGG GAme has been successfully installed ... ")
                     sleep(3)
                     AppList["fogg"] = "Y"   
+               elif command[10:15] == "clock":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing CLOCK DIGITAL  .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/ClockDG.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The Clock Digital has been successfully installed ... ")
+                    sleep(3)
+                    AppList["clock"] = "Y"   
 #=========================# End Pat Installer
 #=========================# System Command
      else:
