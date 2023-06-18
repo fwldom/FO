@@ -378,6 +378,20 @@ while True:
                          system("python TATI.py")
                     else:
                          print("Not Install TATI GAME . Please install TATI  With Command . pat install tati")     
+     elif command == "gutword":
+               try:
+                    chdir("C:/Apps/fwldom-os/Tools/GUTWORD")
+               except:
+                    print()
+               if AppList["gutword"] == "Y":
+                    system("python GUTWORD.py")
+               else:
+                    print()
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/GUTWORD/GUTWORD.py')
+                    if IsFile == True:
+                         system("python GUTWORD.py")
+                    else:
+                         print("Not Install GUTWORD GAME . Please install GUTWORD  With Command . pat install GUTWORD")  
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
