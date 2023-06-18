@@ -350,7 +350,7 @@ while True:
                          system("python FOGG.py")
                     else:
                          print("Not Install FOGG Game. Please install FOGG Game With Command . pat install fogg")
-     elif command == "clock-dg" or command == "clock" :
+     elif command == "clock":
           try:
               chdir("C:/Apps/fwldom-os/Tools/ClockDG")
               if AppList["clock"] == "Y":
