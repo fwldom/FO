@@ -351,7 +351,10 @@ while True:
                     else:
                          print("Not Install FOGG Game. Please install FOGG Game With Command . pat install fogg")
      elif command == "clock":
-               chdir("C:/Apps/fwldom-os/Tools/ClockDG")
+               try:
+                    chdir("C:/Apps/fwldom-os/Tools/ClockDG")
+               except:
+                    print()
                if AppList["clock"] == "Y":
                     system("python ClockDG.py")
                else:
@@ -362,7 +365,10 @@ while True:
                     else:
                          print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
      elif command == "tati":
-               chdir("C:/Apps/fwldom-os/Tools/TATI")
+               try:
+                    chdir("C:/Apps/fwldom-os/Tools/TATI")
+               except:
+                    print()
                if AppList["tati"] == "Y":
                     system("python TATI.py")
                else:
@@ -381,15 +387,15 @@ while True:
                if path.isfile('C:/Apps/fwldom-os/Tools/njrat/NjRat.exe'):
                     print("njrat         njrat. Rat . GU . ")
                if path.isfile('C:/Apps/fwldom-os/Tools/FOGG/FOGG.py'):
-                    print("FOGG GAME     FOGG Game . Made By Fwldom . Programing Language Python . YEAH ")
+                    print("fogg          FOGG Game . Made By Fwldom . Programing Language Python . YEAH ")
                if path.isfile('C:/Apps/fwldom-os/Tools/calculator/Calculator.exe'):
                     print("calculator-gu ")
                if path.isfile('C:/Apps/fwldom-os/Tools/FWLDOM_BOMB/FWLDOM_BOMB.py'):
                     print("fwldom_bomb   100 API . IRANIAN . Python")
                if path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py'):
-                    print("CLOCK-dg      DIGITAL . Python . TIME SYSTEM SHOW DIGITAL ")
+                    print("clock         DIGITAL . Python . TIME SYSTEM SHOW DIGITAL ")
                if path.isfile('C:/Apps/fwldom-os/Tools/TATI/TATI.py'):
-                    print("TATI          TATI GAME . Python . MADE BY FWLDOM")
+                    print("tati          TATI GAME . Python . MADE BY FWLDOM")
 
 
           if command[3:10] == "install":
