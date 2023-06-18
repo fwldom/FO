@@ -351,17 +351,27 @@ while True:
                     else:
                          print("Not Install FOGG Game. Please install FOGG Game With Command . pat install fogg")
      elif command == "clock":
-          try:
-              chdir("C:/Apps/fwldom-os/Tools/ClockDG")
-              if AppList["clock"] == "Y":
-                    system("python ClockDG.py")
-          except:
-               print()
-               IsFile = path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py')
-               if IsFile == True:
+               chdir("C:/Apps/fwldom-os/Tools/ClockDG")
+               if AppList["clock"] == "Y":
                     system("python ClockDG.py")
                else:
-                    print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
+                    print()
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/ClockDG/ClockDG.py')
+                    if IsFile == True:
+                         system("python ClockDG.py")
+                    else:
+                         print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")    
+     elif command == "tati":
+               chdir("C:/Apps/fwldom-os/Tools/TATI")
+               if AppList["tati"] == "Y":
+                    system("python TATI.py")
+               else:
+                    print()
+                    IsFile = path.isfile('C:/Apps/fwldom-os/Tools/TATI/TATI.py')
+                    if IsFile == True:
+                         system("python TATI.py")
+                    else:
+                         print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")     
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
@@ -435,6 +445,17 @@ while True:
                     print("The Clock Digital has been successfully installed ... ")
                     sleep(3)
                     AppList["clock"] = "Y"   
+               elif command[10:14] == "tati":
+                    chdir("C:\\Apps\\fwldom-os\\Tools")
+                    print(" installing TATI GAME  .... ")
+                    sleep(1)
+                    system("git clone https://github.com/fwldom/TATI.git")
+                    sleep(1)
+                    system("cls")
+                    sleep(1)
+                    print("The TATI GAME has been successfully installed ... ")
+                    sleep(3)
+                    AppList["tati"] = "Y" 
 #=========================# End Pat Installer
 #=========================# System Command
      else:
