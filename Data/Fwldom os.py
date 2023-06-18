@@ -377,7 +377,7 @@ while True:
                     if IsFile == True:
                          system("python TATI.py")
                     else:
-                         print("Not Install ClockDG . Please install ClockDG  With Command . pat install Clock")     
+                         print("Not Install TATI GAME . Please install TATI  With Command . pat install tati")     
 #=========================          # End Apps And Tools
 #=========================          # Start Pat Installer
      elif command[0:3] == "pat":
