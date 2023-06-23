@@ -1,5 +1,5 @@
 ```
-fwldom os is based on Python
+Fwldom os is Based on Python
 ```
 # fwldom-os
 ## For Woman Life Freedom
