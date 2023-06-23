@@ -11,7 +11,7 @@ Git And Python3
 # For Windows
 Open Cmd
 ```
-git clone https://github.com/fwldom/fwldom-os.git
-cd fwldom-os
+git clone https://github.com/fwldom/FO.git
+cd FO
 python Setup.py
 ```
