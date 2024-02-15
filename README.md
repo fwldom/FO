@@ -2,7 +2,6 @@
 Fwldom os is Based on Python
 ```
 # fwldom-os
-## For Woman Life Freedom
 ## *requisites*
 ```
 Git And Python3
